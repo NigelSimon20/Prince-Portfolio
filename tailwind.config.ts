@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         'opensans-light': ['Open Sans Light', 'sans-serif'],
         'opensans-regular': ['Open Sans Regular', 'san-serif'],
+        'opensans-medium': ['Open Sans Medium', 'san-serif'],
     },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
