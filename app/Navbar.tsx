@@ -70,7 +70,7 @@ const NavBar = () => {
             </div>
 
             {isOpen && (
-                <div className="md:hidden absolute top-14 left-0 right-0 bg-[#2C70AA]">
+                <div className="md:hidden absolute top-14 left-0 right-0 bg-[#2C70AA] z-30">
                     <div className="flex flex-col items-center py-4 space-y-4">
                         {links.map((link) => (
                             <Link key={link.href} href={link.href} className="text-zinc-200 hover:text-zinc-500 transition-colors" onClick={toggleMenu}>
