@@ -5,7 +5,7 @@ import DmPic from "../../public/images/rectangle.png"
 
 const Hero = () => {
   return (
-    <div className='h-[100vh] relative mb-5'>
+    <div className='h-[80vh] relative mb-5'>
         <div className='md:absolute md:right-[160px] text-center md:text-left mt-10 md:mt-0 font-opensans-regular'>
             <p className='text-[30px] relative'>Digital Marketing</p>
             <h1 className='text-[45px] md:text-[70px] relative z-20 bg-[#E0E0E0]'>PORTFOLIO</h1>
