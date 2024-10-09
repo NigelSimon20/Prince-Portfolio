@@ -1,6 +1,12 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa6";
 import ExperienceCards from './ExperienceCards'
+import Media from '../../public/images/Media.png'
+import Posetive from '../../public/images/PositiveDynamic.png'
+import Combo from '../../public/images/ComboChart.png'
+import Email from '../../public/images/Email.png'
+import Thumbs from '../../public/images/ThumbsUp.png'
+import Analytics from '../../public/images/Analytics.png'
 
 
 const Experience = () => {
@@ -10,38 +16,38 @@ const Experience = () => {
         <h2 className='font-opensans-medium text-[30px] text-center'>WHAT I CAN DO</h2>
         <div className='mt-[30px] md:mt-[60px] md:flex justify-between items-center'>
             <ExperienceCards 
-            icon = {<FaLinkedin />}
+            icon = {Posetive}
             IconHeading = 'Seo'
             IconText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi, veniam aspernatur magni esse soluta quae deserunt tempora deleniti ipsa!'
             />
 
             <ExperienceCards 
-            icon = {<FaLinkedin />}
+            icon = {Thumbs}
             IconHeading = 'Seo'
             IconText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi, veniam aspernatur magni esse soluta quae deserunt tempora deleniti ipsa!'
             />
 
             <ExperienceCards 
-            icon = {<FaLinkedin />}
+            icon = {Media}
             IconHeading = 'Seo'
             IconText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi, veniam aspernatur magni esse soluta quae deserunt tempora deleniti ipsa!'
             />
         </div>
         <div className='mt-[0px] md:mt-[45px] md:flex justify-between items-center'>
             <ExperienceCards 
-            icon = {<FaLinkedin />}
+            icon = {Email}
             IconHeading = 'Seo'
             IconText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi, veniam aspernatur magni esse soluta quae deserunt tempora deleniti ipsa!'
             />
 
             <ExperienceCards 
-            icon = {<FaLinkedin />}
+            icon = {Combo}
             IconHeading = 'Seo'
             IconText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi, veniam aspernatur magni esse soluta quae deserunt tempora deleniti ipsa!'
             />
 
             <ExperienceCards 
-            icon = {<FaLinkedin />}
+            icon = {Analytics}
             IconHeading = 'Seo'
             IconText='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi, veniam aspernatur magni esse soluta quae deserunt tempora deleniti ipsa!'
             />
